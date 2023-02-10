@@ -17,7 +17,7 @@ There are several ports open
 | Port | Usage |
 | ---- | ---- |
 | 23/tcp | telnet |
-| 80/tcp | USR-WIFI configuration page |
+| 80/tcp | USR-WIFI configuration page (login and password: `admin`) |
 | 8000/tcp | unknown |
 | 8899/tcp | API (see [script](https://github.com/sermatec-opensource/sermatec-inverter)) |
 
