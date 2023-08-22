@@ -29,6 +29,8 @@ There are several ports open
 
 The fact that the inverters can be potentionally abused remotely means not only risk of destroying the inverter/batteries and gaining the home AP credentials but also a possibility of causing a blackout if the area relies solely on the solar power.
 
+⚠️ The WebUI password length is 15 chars max
+
 ### Modbus communication
 - method: rtu
 - stopbits: 1
