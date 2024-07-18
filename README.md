@@ -50,6 +50,8 @@ The safest way of securing the inverter is connecting it to a network with no ac
 The protocol used on this interface is different from the Modbus, it does not even use similar addresses or structure. This protocol is not public and was not available even for official distributors. All information about the protocol comes from community's reverse-engineering efforts. Documentation of the protocol is in the `PROTOCOL.md` file.
 
 ## Modbus communication
+⚠️🚨 WARNING: This method allows to take complete control over the inverter. DO NOT ATTEMPT TO USE THIS PROTOCOL UNLESS YOU ARE 100% CERTAIN YOU KNOW WHAT YOU ARE DOING. There were cases where someone destroyed their inverter and PV panels.
+
 There is also a Modbus interface. This is a manufacturer's offical way of integrating the inverter with other devices (e.g. inverter distributor's control module), it allows to read all data and set all inverter's parameters. It is the most powerful but also the most dangerous way of interfacing with the inverter.
 
 Modbus parameters:
